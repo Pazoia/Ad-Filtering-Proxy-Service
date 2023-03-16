@@ -199,43 +199,43 @@ http://127.0.0.1:8000/swagger/
 
 - Returns `False` as `optIn` is set to false
 
-[Link](http://127.0.0.1:8000/request-targeted-ad/?customerId=000000000002&optIn=False&inactivityTimer=7000)
-
 ```
 http://127.0.0.1:8000/request-targeted-ad/?customerId=000000000002&optIn=False&inactivityTimer=7000
 ```
 
-- Returns `False` as `inactivityTimer` is greater than 2 hours
+[Link](http://127.0.0.1:8000/request-targeted-ad/?customerId=000000000002&optIn=False&inactivityTimer=7000)
 
-[Link](http://127.0.0.1:8000/request-targeted-ad/?customerId=000000000002&optIn=True&inactivityTimer=7500)
+- Returns `False` as `inactivityTimer` is greater than 2 hours
 
 ```
 http://127.0.0.1:8000/request-targeted-ad/?customerId=000000000002&optIn=True&inactivityTimer=7500
 ```
 
-- Returns `False` as `customerId` is exactly divisible by 7
+[Link](http://127.0.0.1:8000/request-targeted-ad/?customerId=000000000002&optIn=True&inactivityTimer=7500)
 
-[Link](http://127.0.0.1:8000/request-targeted-ad/?customerId=000000000014&optIn=True&inactivityTimer=750)
+- Returns `False` as `customerId` is exactly divisible by 7
 
 ```
 http://127.0.0.1:8000/request-targeted-ad/?customerId=000000000014&optIn=True&inactivityTimer=750
 ```
 
-- Returns `False` as `inactivityTimer` is exactly divisible by 9
+[Link](http://127.0.0.1:8000/request-targeted-ad/?customerId=000000000014&optIn=True&inactivityTimer=750)
 
-[Link](http://127.0.0.1:8000/request-targeted-ad/?customerId=000000000003&optIn=True&inactivityTimer=18)
+- Returns `False` as `inactivityTimer` is exactly divisible by 9
 
 ```
 http://127.0.0.1:8000/request-targeted-ad/?customerId=000000000003&optIn=True&inactivityTimer=18
 ```
 
-- Returns `True` as all the conditions evaluate to true
+[Link](http://127.0.0.1:8000/request-targeted-ad/?customerId=000000000003&optIn=True&inactivityTimer=18)
 
-[Link](http://127.0.0.1:8000/request-targeted-ad/?customerId=000000000002&optIn=True&inactivityTimer=7000)
+- Returns `True` as all the conditions evaluate to true
 
 ```
 http://127.0.0.1:8000/request-targeted-ad/?customerId=000000000002&optIn=True&inactivityTimer=7000
 ```
+
+[Link](http://127.0.0.1:8000/request-targeted-ad/?customerId=000000000002&optIn=True&inactivityTimer=7000)
 
 > Alternatively you can also edit these parameters in your browser url.
 
@@ -278,7 +278,7 @@ _Creating Models_
 
 _Setting up_
 
-- ✅ Create database in Postgresq `customersDB`
+- ✅ Create database in Postgresq `customersdb`
 - ✅ Create project dir
 - ✅ Set up virtual env
 - ✅ pip install Django
