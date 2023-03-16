@@ -1,0 +1,56 @@
+[
+  {
+    "customer_id": "000000000001",
+    "first_name": "Yondu",
+    "last_name": "Udonta",
+    "email": "yondu.udonta@spacelord.com",
+    "receiving_targeted_ads": "True",
+    "remote_last_used": "2022-12-22 14:00:00",
+    "customer_password": "password 1"
+  },
+  {
+    "customer_id": "000000000002",
+    "first_name": "Gamora",
+    "last_name": "Zen Whoberi",
+    "email": "gamora.whoberi@zehoberei.com",
+    "receiving_targeted_ads": "False",
+    "remote_last_used": "2022-12-22 14:30:00",
+    "customer_password": "password 2"
+  },
+  {
+    "customer_id": "000000000003",
+    "first_name": "Marge",
+    "last_name": "Simpson",
+    "email": "marge.simpson@simpsons.com",
+    "receiving_targeted_ads": "True",
+    "remote_last_used": "2022-12-22 17:00:00",
+    "customer_password": "password 3"
+  },
+  {
+    "customer_id": "000000000007",
+    "first_name": "Okoye",
+    "last_name": "Wakanda",
+    "email": "okoye@wakandaforever.com",
+    "receiving_targeted_ads": "True",
+    "remote_last_used": "2022-12-22 17:00:00",
+    "customer_password": "password 4"
+  },
+  {
+    "customer_id": "000000000009",
+    "first_name": "Lois",
+    "last_name": "Lane",
+    "email": "lois.lane@superhero.com",
+    "receiving_targeted_ads": "True",
+    "remote_last_used": "2022-12-22 14:29:42",
+    "customer_password": "password 5"
+  },
+  {
+    "customer_id": "000000000014",
+    "first_name": "Clark",
+    "last_name": "Kent",
+    "email": "clark.kent@superhero.com",
+    "receiving_targeted_ads": "True",
+    "remote_last_used": "2022-12-22 14:29:42",
+    "customer_password": "password 6"
+  }
+]
